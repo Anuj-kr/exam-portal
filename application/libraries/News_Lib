@@ -1,0 +1,17 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+class News_Lib 
+{
+
+    function News_Lib()
+	{
+		parent::__construct();		
+		$this->load->model('news_model');
+	}
+
+	function get_all_news_sources()
+	{
+		echo 'dd'; exit;
+		return $this->ci->news_model->get_all_news_sources();
+	}
+}
