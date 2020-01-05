@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // for local
 
-$config['base_url'] = 'http://3.134.117.252/';
+$config['base_url'] = '';
 
 // =====================================================================================
 
